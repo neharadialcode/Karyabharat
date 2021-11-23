@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',
+        sans-serif;
+}
+
+:root {
+    /*=============================== FONT-SIZE ===============================*/
+    --font-xxs: 16px;
+    --font-xs: 18px;
+    --font-sm: 20px;
+    --font-md: 25px;
+    --font-md-2: 30px;
+    --font-lg: 40px;
+    --font-xl: 49px;
+    --font-xxl: 90px;
+    --font-normal: 22px;
+    /*================================ COLORS ================================*/
+    --color-dark-blue: #2A2D7E;
+    --color-black: #000000;
+    --color-white: #ffffff;
+}
+
+@media (max-width:1200px) {
+    :root {
+        --font-xxs: 16px;
+        --font-xs: 18px;
+        --font-sm: 20px;
+        --font-md: 25px;
+        --font-md-2: 30px;
+        --font-lg: 40px;
+        --font-xl: 49px;
+        --font-xxl: 90px;
+    }
+}
+
+@media (max-width:992px) {
+    :root {
+        --font-xxs: 16px;
+        --font-xs: 18px;
+        --font-sm: 20px;
+        --font-md: 22px;
+        --font-md-2: 25px;
+        --font-lg: 35px;
+        --font-xl: 40px;
+        --font-xxl: 70px;
+    }
+}
+
+@media (max-width:768px) {
+    :root {
+        --font-xxs: 14px;
+        --font-xs: 16px;
+        --font-sm: 18px;
+        --font-md: 20px;
+        --font-md-2: 25px;
+        --font-lg: 30px;
+        --font-xl: 35px;
+        --font-xxl: 50px;
+        --font-normal: 20px;
+    }
+}
+
+@media (max-width:576px) {
+    :root {
+        --font-xxs: 14px;
+        --font-xs: 16px;
+        --font-sm: 18px;
+        --font-md: 20px;
+        --font-md-2: 25px;
+        --font-lg: 30px;
+        --font-xl: 35px;
+        --font-xxl: 50px;
+        --font-normal: 18px;
+    }
+}
+
+
+
+/*================================ REUSABLE-CLASSES ================================*/
+.blue-text {
+    color: var(--color-dark-blue);
+    font-size: var(--font-xs);
+    font-weight: 400;
+}
+
+.heading-common {
+    font-size: var(--font-lg);
+    font-weight: 600;
+}
